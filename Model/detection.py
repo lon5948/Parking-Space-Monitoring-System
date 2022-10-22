@@ -101,6 +101,10 @@ def detect(dataPath, clf):
         if ret==False:
             break
         
+        dic = {'a','b','c'}
+        dic['a'] = []
+        dic['b'] = []
+        dic['c'] = []
         for i in range(int(num)):
             frameCroped = crop(coordinate[i][0],coordinate[i][1],coordinate[i][2],coordinate[i][3],coordinate[i][4],coordinate[i][5],coordinate[i][6],coordinate[i][7],frame)
             frameCroped = cv2.cvtColor(frameCroped, cv2.COLOR_BGR2GRAY)
@@ -118,17 +122,21 @@ def detect(dataPath, clf):
             else:
                 if(i < 26):
                     a += 1
+                    dic['a'].append(i+1)
                 elif(i >= 26 and i <= 51):
                     b += 1
+                    dic['b'].append(i%26 + 1)
                 else:
                     c += 1
+                    dic['c'].append(i%26 + 1)
                 total += 1
                 f.write('0 ')
         #cv2.imshow('detectedImage',frame)
-        print('[Remaining free parking lots]')
-        print('Section A: ', a)
-        print('Section B: ', b)
-        print('Section C: ', c)
+        #print('[Remaining free parking lots]')
+        #print('Section A: ', a)
+        #print('Section B: ', b)
+        #print('Section C: ', c)
+        return a, b, c, total, dic
      
         f.write('\n')
             

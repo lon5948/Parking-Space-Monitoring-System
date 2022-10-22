@@ -3,7 +3,6 @@ import adaboost
 import utils
 import detection
 import matplotlib.pyplot as plt
-
 import SOTA
 
 '''
@@ -33,22 +32,11 @@ clf.train(trainData)
 
 clf.save('clf_300_1_10')
 '''
-trainData = dataset.loadImages('data/train')
-testData = dataset.loadImages('data/test')
-
-clf = adaboost.Adaboost.load('clf_300_1_10_SOTA')
-
-print('\nEvaluate your classifier with training dataset')
-utils.evaluate(clf, trainData)
-
-print('\nEvaluate your classifier with test dataset')
-utils.evaluate(clf, testData)
-
-
-
-# Part 4: Implement detect function in detection.py and test the following code.
-print('\nUse your classifier with video.gif to get the predictions (one .txt and one .png)')
-detection.detect('data/detect', clf)
+def model():
+    clf = adaboost.Adaboost.load('clf_300_1_10_SOTA')
+    # Part 4: Impl ment detect function in detection.py and test the following code.
+    print('\nUse your classifier with video.gif to get the predictions (one .txt and one .png)')
+    return detection.detect('data', clf)
 
 #Part 6:SOTA method
 '''

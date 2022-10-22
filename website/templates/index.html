@@ -27,7 +27,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Remaining Parking Lot</div>
-                <div class="masthead-heading text-uppercase">(Num)</div>
+                <div class="masthead-heading text-uppercase">{{ total }}</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">More Details</a>
             </div>
         </header>
@@ -50,7 +50,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Daxue Rd.</div>
-                                <div class="portfolio-caption-subheading text-muted">(num)</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ sectionA }}</div>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Guangfu Rd.</div>
-                                <div class="portfolio-caption-subheading text-muted">(num)</div>
+                                <div class="portfolio-caption-subheading">{{ sectionB }}</div>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Baoshan Rd.</div>
-                                <div class="portfolio-caption-subheading text-muted">(num)</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ sectionC }}</div>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,11 @@
                                     <h2 class="text-uppercase">Daxue Rd.</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>(parking lot no.)</p>
+                                    <p>
+                                        {% for a in parkingLot.a %}
+                                        {{ a }} ,
+                                        {% endfor %}
+                                    </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         Open In Google Maps
                                     </button>
@@ -187,7 +191,11 @@
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>(parking lot no.)</p>
+                                    <p>
+                                        {% for b in parkingLot.b %}
+                                        {{ b }} ,
+                                        {% endfor %}
+                                    </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         Open In Google Maps
                                     </button>
@@ -211,7 +219,11 @@
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>(parking lot no.)</p>
+                                    <p>
+                                        {% for c in parkingLot.c %}
+                                        {{ c }} ,
+                                        {% endfor %}
+                                    </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         Open In Google Maps
                                     </button>

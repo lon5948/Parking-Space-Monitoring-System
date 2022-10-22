@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 import SOTA
 
-
+'''
 #Part 1: Implement loadImages function in dataset.py and test the following code.
 print('Loading images')
 trainData = dataset.loadImages('data/train')
@@ -22,7 +22,7 @@ ax[1].axis('off')
 ax[1].set_title('Non car')
 #ax[1].imshow(trainData[-1][0], cmap='gray')
 plt.show()
-
+'''
 # Part 2: Implement selectBest function in adaboost.py and test the following code.
 # Part 3: Modify difference values at parameter T of the Adaboost algorithm.
 # And find better results. Please test value 1~10 at least.
@@ -33,6 +33,8 @@ clf.train(trainData)
 
 clf.save('clf_300_1_10')
 '''
+trainData = dataset.loadImages('data/train')
+testData = dataset.loadImages('data/test')
 
 clf = adaboost.Adaboost.load('clf_300_1_10_SOTA')
 

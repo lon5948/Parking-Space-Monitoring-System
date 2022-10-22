@@ -87,8 +87,6 @@ def detect(dataPath, clf):
     
         
     cap = cv2.VideoCapture(dataPathVideo)
-    
-    index=0   
     f=open('Adaboost_pred.txt','w')
 
     
@@ -110,11 +108,12 @@ def detect(dataPath, clf):
             
             if clf.classify(frameCroped)==1:
                 f.write('1 ')
+                '''
                 green_color = (0, 255, 0) # BGR
                 pts = np.array([[coordinate[i][0], coordinate[i][1]], [coordinate[i][2], coordinate[i][3]], [coordinate[i][6], coordinate[i][7]], [coordinate[i][4], coordinate[i][5]]], np.int32)
                 pts = pts.reshape((4, 1, 2))# 將座標轉為 (頂點數量, 1, 2) 的陣列
                 cv2.polylines(frame, [pts], True, green_color, 1)# 繪製多邊形
-
+                '''
                                            
             else:
                 if(i < 26):
@@ -125,18 +124,13 @@ def detect(dataPath, clf):
                     c += 1
                 total += 1
                 f.write('0 ')
-        cv2.imshow('detectedImage',frame)
+        #cv2.imshow('detectedImage',frame)
         print('[Remaining free parking lots]')
         print('Section A: ', a)
         print('Section B: ', b)
         print('Section C: ', c)
      
         f.write('\n')
-        if index==0:       
-            cv2.imwrite('detectedImage.png',frame)           
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
-            index=1
             
         if cv2.waitKey(30) == 27:
             break

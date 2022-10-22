@@ -119,12 +119,12 @@ def detect(dataPath, clf, filename):
             
             if clf.classify(frameCroped)==1:
                 f.write('1 ')
-                '''
+                
                 green_color = (0, 255, 0) # BGR
                 pts = np.array([[coordinate[i][0], coordinate[i][1]], [coordinate[i][2], coordinate[i][3]], [coordinate[i][6], coordinate[i][7]], [coordinate[i][4], coordinate[i][5]]], np.int32)
                 pts = pts.reshape((4, 1, 2))# 將座標轉為 (頂點數量, 1, 2) 的陣列
                 cv2.polylines(frame, [pts], True, green_color, 1)# 繪製多邊形
-                '''
+                
                                            
             else:
                 if(i < 26):
@@ -145,6 +145,7 @@ def detect(dataPath, clf, filename):
         #print('Section C: ', c)
         r = random.randint(1,10)
         if r == 10:
+            cv2.imwrite('static/assets/img/pic.jpg',frame)
             return a, b, c, total, dic
      
         #f.write('\n')

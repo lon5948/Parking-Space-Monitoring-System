@@ -1,0 +1,4 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\mbedtls\include/mbedtls/error.h:159:19:mbedtls_error_add	16	static
+../mbedtls/library/pem.c:44:6:mbedtls_pem_init	16	static
+../mbedtls/library/pem.c:225:5:mbedtls_pem_read_buffer	64	static
+../mbedtls/library/pem.c:419:6:mbedtls_pem_free	16	static

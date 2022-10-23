@@ -1,0 +1,11 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1408:20:CLOCK_SetMux	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1460:20:CLOCK_SetDiv	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_gpio.h:112:20:GPIO_PortSet	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_gpio.h:136:20:GPIO_PortClear	8	static
+../source/main_wifi.c:130:6:turnOnLed	16	static
+../source/main_wifi.c:138:6:turnOffLed	16	static
+../source/main_wifi.c:149:6:BOARD_InitLEDs	8	static
+../source/main_wifi.c:154:6:print_string	16	static
+../source/main_wifi.c:218:6:vApplicationDaemonTaskStartupHook	8	static
+../source/main_wifi.c:236:5:main	8	static
+../source/main_wifi.c:271:7:pvPortCalloc	24	static

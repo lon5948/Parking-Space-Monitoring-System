@@ -1,0 +1,7 @@
+../source/remote_control.c:272:17:prvGenerateShadowJSON	16	static
+../source/remote_control.c:291:17:prvReportShadowJSON	16	static
+../source/remote_control.c:379:19:prvWaitForDeleteResponse	24	static
+../source/remote_control.c:410:13:prvDeleteRejectedHandler	48	static
+../source/remote_control.c:469:13:prvUpdateDeltaHandler	48	static
+../source/remote_control.c:572:13:prvEventCallback	48	static
+../source/remote_control.c:671:5:RunRemoteControlDemo	48	static

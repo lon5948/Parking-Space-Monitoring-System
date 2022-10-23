@@ -1,0 +1,2 @@
+../freertos/libraries/3rdparty/mbedtls_utils/mbedtls_error.c:208:14:mbedtls_strerror_highlevel	16	static
+../freertos/libraries/3rdparty/mbedtls_utils/mbedtls_error.c:861:14:mbedtls_strerror_lowlevel	16	static

@@ -1,0 +1,2 @@
+../freertos/libraries/3rdparty/mbedtls_utils/mbedtls_utils.c:50:5:convert_pem_to_der	56	static
+../freertos/libraries/3rdparty/mbedtls_utils/mbedtls_utils.c:155:5:PKI_RSA_RSASSA_PKCS1_v15_Encode	56	static

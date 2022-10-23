@@ -1,0 +1,7 @@
+../wifi/wifidriver/mlan_sta_cmdresp.c:95:20:wlan_ret_802_11_snmp_mib	32	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:180:20:wlan_ret_get_log	24	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:220:20:wlan_get_power_level	32	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:276:20:wlan_ret_tx_power_cfg	72	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:400:13:wlan_ret_802_11_deauthenticate	24	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:422:20:wlan_ret_802_11_rf_channel	16	static
+../wifi/wifidriver/mlan_sta_cmdresp.c:449:13:wlan_ops_sta_process_cmdresp	40	static

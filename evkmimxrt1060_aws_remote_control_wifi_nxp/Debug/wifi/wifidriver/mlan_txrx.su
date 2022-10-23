@@ -1,0 +1,3 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_main.h:2138:22:wlan_get_priv_by_id	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_main.h:2165:22:wlan_get_priv	16	static
+../wifi/wifidriver/mlan_txrx.c:46:13:wlan_handle_rx_packet	32	static

@@ -1,0 +1,3 @@
+../mbedtls/library/sha256.c:422:5:mbedtls_sha256_ret	288	static
+../mbedtls/library/sha256.c:453:6:mbedtls_sha256	24	static
+../mbedtls/library/sha256.c:517:5:mbedtls_sha256_self_test	328	static

@@ -1,0 +1,13 @@
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:187:15:pxPortInitialiseStack	16	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:219:13:prvTaskExitError	16	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:245:6:SVC_Handler	0	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:264:13:prvPortStartFirstTask	0	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:291:12:xPortStartScheduler	32	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:400:6:vPortEndScheduler	8	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:408:6:vPortEnterCritical	8	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:425:6:vPortExitCritical	8	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:437:6:PendSV_Handler	0	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:494:6:SysTick_Handler	16	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:688:32:vPortSetupTimerInterrupt	0	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:710:13:vPortEnableVFP	0	static
+../freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c:727:10:vPortValidateInterruptPriority	16	static

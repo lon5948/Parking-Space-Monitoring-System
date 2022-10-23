@@ -1,0 +1,4 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_util.h:51:22:util_init_list	8	static
+../wifi/wifidriver/mlan_11h.c:90:6:wlan_11h_init	32	static
+../wifi/wifidriver/mlan_11h.c:143:6:wlan_11h_priv_init	16	static
+../wifi/wifidriver/mlan_11h.c:176:8:wlan_11h_radar_detect_required	24	static

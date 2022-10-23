@@ -1,0 +1,7 @@
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:68:13:prvTimerCallback	32	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:87:6:IotClock_GetTimestring	56	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:114:10:IotClock_GetTimeMs	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:136:6:IotClock_SleepMs	16	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:143:6:IotClock_TimerCreate	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:174:6:IotClock_TimerDestroy	40	static
+../freertos/libraries/abstractions/platform/freertos/iot_clock_freertos.c:200:6:IotClock_TimerArm	48	static

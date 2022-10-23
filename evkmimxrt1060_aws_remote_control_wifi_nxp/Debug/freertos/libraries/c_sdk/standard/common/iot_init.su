@@ -1,0 +1,2 @@
+../freertos/libraries/c_sdk/standard/common/iot_init.c:71:6:IotSdk_Init	40	static
+../freertos/libraries/c_sdk/standard/common/iot_init.c:135:6:IotSdk_Cleanup	16	static

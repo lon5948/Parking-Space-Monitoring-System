@@ -1,0 +1,5 @@
+../freertos/freertos_kernel/list.c:48:6:vListInitialise	8	static
+../freertos/freertos_kernel/list.c:73:6:vListInitialiseItem	8	static
+../freertos/freertos_kernel/list.c:85:6:vListInsertEnd	16	static
+../freertos/freertos_kernel/list.c:115:6:vListInsert	16	static
+../freertos/freertos_kernel/list.c:183:13:uxListRemove	16	static

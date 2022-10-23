@@ -1,0 +1,10 @@
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:121:13:_destroyConnection	32	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:142:13:_networkReceiveTask	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:237:26:_tlsSetup	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:314:19:IotNetworkAfr_Create	96	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:450:19:IotNetworkAfr_SetReceiveCallback	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:484:8:IotNetworkAfr_Send	56	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:528:8:IotNetworkAfr_Receive	64	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:596:8:IotNetworkAfr_ReceiveUpto	48	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:644:19:IotNetworkAfr_Close	32	static
+../freertos/libraries/abstractions/platform/freertos/iot_network_freertos.c:682:19:IotNetworkAfr_Destroy	32	static

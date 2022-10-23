@@ -1,0 +1,11 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\incl\port\lwip/wm_net.h:122:19:net_get_sock_error	16	static
+../wifi/dhcpd/dns-server.c:33:13:format_qname	32	static
+../wifi/dhcpd/dns-server.c:61:21:make_answer_rr	40	static
+../wifi/dhcpd/dns-server.c:91:14:parse_questions	32	static
+../wifi/dhcpd/dns-server.c:129:12:process_dns_message	48	static
+../wifi/dhcpd/dns-server.c:209:6:dhcp_enable_dns_server	24	static
+../wifi/dhcpd/dns-server.c:235:5:dns_server_init	16	static
+../wifi/dhcpd/dns-server.c:254:6:dns_process_packet	40	static
+../wifi/dhcpd/dns-server.c:272:10:dns_get_nameserver	0	static
+../wifi/dhcpd/dns-server.c:281:5:dns_get_maxsock	16	static
+../wifi/dhcpd/dns-server.c:294:6:dns_free_allocations	8	static

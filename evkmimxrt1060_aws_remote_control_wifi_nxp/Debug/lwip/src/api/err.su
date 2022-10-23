@@ -1,0 +1,2 @@
+../lwip/src/api/err.c:69:1:err_to_errno	8	static
+../lwip/src/api/err.c:107:1:lwip_strerr	8	static

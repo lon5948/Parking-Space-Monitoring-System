@@ -1,0 +1,15 @@
+../mbedtls/library/hmac_drbg.c:52:6:mbedtls_hmac_drbg_init	16	static
+../mbedtls/library/hmac_drbg.c:62:5:mbedtls_hmac_drbg_update_ret	72	static
+../mbedtls/library/hmac_drbg.c:108:6:mbedtls_hmac_drbg_update	24	static
+../mbedtls/library/hmac_drbg.c:119:5:mbedtls_hmac_drbg_seed_buf	40	static
+../mbedtls/library/hmac_drbg.c:159:12:hmac_drbg_reseed_core	424	static
+../mbedtls/library/hmac_drbg.c:238:5:mbedtls_hmac_drbg_reseed	24	static
+../mbedtls/library/hmac_drbg.c:250:5:mbedtls_hmac_drbg_seed	32	static
+../mbedtls/library/hmac_drbg.c:308:6:mbedtls_hmac_drbg_set_prediction_resistance	8	static
+../mbedtls/library/hmac_drbg.c:317:6:mbedtls_hmac_drbg_set_entropy_len	8	static
+../mbedtls/library/hmac_drbg.c:325:6:mbedtls_hmac_drbg_set_reseed_interval	8	static
+../mbedtls/library/hmac_drbg.c:334:5:mbedtls_hmac_drbg_random_with_add	48	static
+../mbedtls/library/hmac_drbg.c:405:5:mbedtls_hmac_drbg_random	40	static
+../mbedtls/library/hmac_drbg.c:429:6:mbedtls_hmac_drbg_free	16	static
+../mbedtls/library/hmac_drbg.c:556:12:hmac_drbg_self_test_entropy	32	static
+../mbedtls/library/hmac_drbg.c:575:5:mbedtls_hmac_drbg_self_test	184	static

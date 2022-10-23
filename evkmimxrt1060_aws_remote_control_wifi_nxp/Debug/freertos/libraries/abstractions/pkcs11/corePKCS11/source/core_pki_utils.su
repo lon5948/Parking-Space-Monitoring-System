@@ -1,0 +1,2 @@
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pki_utils.c:46:8:PKI_mbedTLSSignatureToPkcs11Signature	32	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pki_utils.c:134:8:PKI_pkcs11SignatureTombedTLSSignature	88	static

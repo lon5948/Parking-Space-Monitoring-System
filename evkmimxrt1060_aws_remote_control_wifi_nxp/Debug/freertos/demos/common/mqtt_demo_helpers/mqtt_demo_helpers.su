@@ -1,0 +1,16 @@
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:365:19:prvBackoffForRetry	32	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:415:32:prvConnectToServerWithBackoffRetries	88	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:485:19:prvWaitForPacket	32	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:524:12:SubscribeToTopic	64	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:621:19:prvGetNextFreeIndexForOutgoingPublishes	24	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:648:13:vCleanupOutgoingPublishAt	16	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:661:13:vCleanupOutgoingPublishes	8	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:671:13:vCleanupOutgoingPublishWithPacketID	24	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:693:6:vHandleOtherIncomingPacket	40	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:764:19:handlePublishResend	24	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:809:12:EstablishMqttSession	88	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:951:12:DisconnectMqttSession	24	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:989:12:UnsubscribeFromTopic	48	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:1046:12:PublishToTopic	32	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:1123:12:ProcessLoop	24	static
+../freertos/demos/common/mqtt_demo_helpers/mqtt_demo_helpers.c:1147:17:prvGetTimeMs	16	static

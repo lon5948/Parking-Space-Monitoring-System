@@ -1,0 +1,7 @@
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:50:14:prvOpenSession	32	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:72:7:xGetSlotList	32	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:151:7:xInitializePKCS11	40	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:177:7:xInitializePkcs11Token	32	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:254:7:xInitializePkcs11Session	32	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:310:7:xFindObjectWithLabelAndClass	64	static
+../freertos/libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c:375:7:vAppendSHA256AlgorithmIdentifierSequence	48	static

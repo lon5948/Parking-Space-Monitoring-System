@@ -1,0 +1,8 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	40	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1496:20:CLOCK_ControlGate	32	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1513:20:CLOCK_EnableClock	16	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_iomuxc.h:1288:20:IOMUXC_SetPinMux	16	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_iomuxc.h:1320:20:IOMUXC_SetPinConfig	16	static
+../board/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:78:6:BOARD_InitPins	16	static
+../board/pin_mux.c:266:6:BOARD_I2C_ConfigurePins	16	static

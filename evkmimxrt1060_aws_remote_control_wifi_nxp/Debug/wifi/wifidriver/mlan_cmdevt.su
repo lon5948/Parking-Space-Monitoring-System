@@ -1,0 +1,9 @@
+../wifi/wifidriver/mlan_cmdevt.c:49:13:wlan_prepare_cmd	40	static
+../wifi/wifidriver/mlan_cmdevt.c:95:13:wlan_cmd_enh_power_mode	64	static
+../wifi/wifidriver/mlan_cmdevt.c:298:13:wlan_ret_802_11_tx_rate_query	32	static
+../wifi/wifidriver/mlan_cmdevt.c:481:13:wlan_cmd_tx_rate_cfg	40	static
+../wifi/wifidriver/mlan_cmdevt.c:579:13:wlan_ret_tx_rate_cfg	72	static
+../wifi/wifidriver/mlan_cmdevt.c:760:13:wlan_cmd_get_hw_spec	24	static
+../wifi/wifidriver/mlan_cmdevt.c:782:13:wlan_cmd_get_tsf	16	static
+../wifi/wifidriver/mlan_cmdevt.c:804:13:wlan_ret_get_hw_spec	64	static
+../wifi/wifidriver/mlan_cmdevt.c:1039:13:wlan_cmd_remain_on_channel	24	static

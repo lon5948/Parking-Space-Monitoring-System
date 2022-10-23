@@ -1,0 +1,8 @@
+../freertos/demos/demo_runner/iot_demo_freertos.c:53:17:_getConnectedNetworkForDemo	24	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:79:17:_waitForDemoNetworkConnection	16	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:88:13:_onNetworkStateChangeCallback	56	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:168:12:_initialize	32	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:269:13:_cleanup	8	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:281:6:runDemoTask	64	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:406:10:vApplicationMallocFailedHook	16	static
+../freertos/demos/demo_runner/iot_demo_freertos.c:430:10:vApplicationStackOverflowHook	24	static

@@ -1,0 +1,9 @@
+../lwip/src/core/ipv4/ip4.c:117:1:ip4_set_default_multicast_netif	8	static
+../lwip/src/core/ipv4/ip4.c:152:1:ip4_route	16	static
+../lwip/src/core/ipv4/ip4.c:408:1:ip4_input_accept	16	static
+../lwip/src/core/ipv4/ip4.c:460:1:ip4_input	48	static
+../lwip/src/core/ipv4/ip4.c:821:1:ip4_output_if	48	static
+../lwip/src/core/ipv4/ip4.c:836:1:ip4_output_if_opt	56	static
+../lwip/src/core/ipv4/ip4.c:861:1:ip4_output_if_src	48	static
+../lwip/src/core/ipv4/ip4.c:874:1:ip4_output_if_opt_src	48	static
+../lwip/src/core/ipv4/ip4.c:1062:1:ip4_output	48	static

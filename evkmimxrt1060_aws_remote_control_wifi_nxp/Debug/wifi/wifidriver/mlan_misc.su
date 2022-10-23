@@ -1,0 +1,7 @@
+../wifi/wifidriver/mlan_misc.c:34:14:wlan_alloc_mlan_buffer	40	static
+../wifi/wifidriver/mlan_misc.c:80:8:wlan_free_mlan_buffer	8	static
+../wifi/wifidriver/mlan_misc.c:96:6:wlan_add_ext_capa_info_ie	32	static
+../wifi/wifidriver/mlan_misc.c:134:20:wlan_rate_ioctl_get_rate_index	40	static
+../wifi/wifidriver/mlan_misc.c:168:20:wlan_rate_ioctl_set_rate_index	96	static
+../wifi/wifidriver/mlan_misc.c:345:13:wlan_rate_ioctl_cfg	24	static
+../wifi/wifidriver/mlan_misc.c:374:13:wlan_cmd_802_11_rf_antenna	24	static

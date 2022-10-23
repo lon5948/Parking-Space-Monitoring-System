@@ -1,0 +1,12 @@
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:118:12:vsnprintf_safe	32	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:151:12:snprintf_safe	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:168:12:xLoggingTaskInitialize	40	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:198:13:prvLoggingTask	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:219:13:prvLoggingPrintfCommon	88	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:368:6:vLoggingPrintfError	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:381:6:vLoggingPrintfWarn	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:394:6:vLoggingPrintfInfo	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:407:6:vLoggingPrintfDebug	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:420:6:vLoggingPrintfWithFileAndLine	32	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:446:6:vLoggingPrintf	24	static
+../freertos/libraries/logging/iot_logging_task_dynamic_buffers.c:459:6:vLoggingPrint	32	static

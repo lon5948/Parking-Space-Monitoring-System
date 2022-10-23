@@ -1,0 +1,5 @@
+../wifi/wifidriver/wifi-mem.c:25:7:wifi_mem_malloc_cmdrespbuf	0	static
+../wifi/wifidriver/wifi-mem.c:32:7:wifi_malloc_eventbuf	24	static
+../wifi/wifidriver/wifi-mem.c:48:6:wifi_free_eventbuf	16	static
+../wifi/wifidriver/wifi-mem.c:54:13:wrapper_moal_malloc	24	static
+../wifi/wifidriver/wifi-mem.c:75:13:wrapper_moal_mfree	16	static

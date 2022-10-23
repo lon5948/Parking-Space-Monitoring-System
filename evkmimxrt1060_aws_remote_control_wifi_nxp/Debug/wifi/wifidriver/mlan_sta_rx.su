@@ -1,0 +1,4 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\incl\port\os/wm_os.h:390:29:os_enter_critical_section	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_main.h:2019:13:queuing_ra_based	8	static
+../wifi/wifidriver/mlan_sta_rx.c:113:13:wlan_process_rx_packet	32	static
+../wifi/wifidriver/mlan_sta_rx.c:167:13:wlan_ops_sta_process_rx_packet	56	static

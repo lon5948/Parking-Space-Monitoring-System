@@ -1,0 +1,8 @@
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:115:9:SecureSocketsTransport_Send	32	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:170:9:SecureSocketsTransport_Recv	40	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:235:16:tlsSetup	48	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:311:32:connectToServer	32	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:348:16:transportTimeoutSetup	48	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:404:32:establishConnect	64	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:496:25:SecureSocketsTransport_Connect	32	static
+../freertos/libraries/abstractions/transport/secure_sockets/transport_secure_sockets.c:546:25:SecureSocketsTransport_Disconnect	32	static

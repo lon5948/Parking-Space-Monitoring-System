@@ -1,0 +1,2 @@
+../freertos/demos/demo_runner/aws_demo.c:42:6:vApplicationGetIdleTaskMemory	16	static
+../freertos/demos/demo_runner/aws_demo.c:73:6:vApplicationGetTimerTaskMemory	16	static

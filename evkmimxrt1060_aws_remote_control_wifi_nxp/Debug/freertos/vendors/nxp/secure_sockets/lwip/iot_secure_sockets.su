@@ -1,0 +1,12 @@
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:117:19:prvNetworkSend	32	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:139:19:prvNetworkRecv	80	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:176:12:socket_is_valid	8	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:192:9:SOCKETS_Close	32	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:251:9:SOCKETS_Connect	88	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:314:10:SOCKETS_GetHostByName	32	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:324:9:SOCKETS_Recv	32	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:369:9:SOCKETS_Send	32	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:411:9:SOCKETS_SetSockOpt	56	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:582:9:SOCKETS_Shutdown	24	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:628:10:SOCKETS_Socket	48	static
+../freertos/vendors/nxp/secure_sockets/lwip/iot_secure_sockets.c:709:12:SOCKETS_Init	0	static

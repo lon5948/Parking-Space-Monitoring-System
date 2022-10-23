@@ -1,0 +1,6 @@
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:102:6:prvLabelToFilenameHandle	24	static
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:157:18:PKCS11_PAL_SaveObject	32	static
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:194:18:PKCS11_PAL_FindObject	32	static
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:240:7:PKCS11_PAL_GetObjectValue	32	static
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:290:6:PKCS11_PAL_GetObjectValueCleanup	8	static
+../freertos/vendors/nxp/pkcs11/common/iot_pkcs11_pal.c:301:7:PKCS11_PAL_Initialize	16	static

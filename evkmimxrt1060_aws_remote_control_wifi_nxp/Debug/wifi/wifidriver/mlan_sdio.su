@@ -1,0 +1,15 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_usdhc.h:928:20:USDHC_EnableInterruptStatus	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_usdhc.h:939:20:USDHC_DisableInterruptStatus	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_usdhc.h:950:20:USDHC_EnableInterruptSignal	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_usdhc.h:961:20:USDHC_DisableInterruptSignal	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\sdmmc\host/fsl_sdmmc_host.h:273:20:SDMMCHOST_EnableCardInt	16	static
+../wifi/wifidriver/mlan_sdio.c:30:5:sdio_drv_creg_read	32	static
+../wifi/wifidriver/mlan_sdio.c:52:6:sdio_drv_creg_write	40	static
+../wifi/wifidriver/mlan_sdio.c:76:5:sdio_drv_read	48	static
+../wifi/wifidriver/mlan_sdio.c:110:6:sdio_drv_write	48	static
+../wifi/wifidriver/mlan_sdio.c:144:13:SDIO_CardInterruptCallBack	16	static
+../wifi/wifidriver/mlan_sdio.c:150:6:sdio_enable_interrupt	8	static
+../wifi/wifidriver/mlan_sdio.c:158:13:sdio_controller_init	8	static
+../wifi/wifidriver/mlan_sdio.c:172:12:sdio_card_init	16	static
+../wifi/wifidriver/mlan_sdio.c:229:5:sdio_drv_init	24	static
+../wifi/wifidriver/mlan_sdio.c:255:6:sdio_drv_deinit	16	static

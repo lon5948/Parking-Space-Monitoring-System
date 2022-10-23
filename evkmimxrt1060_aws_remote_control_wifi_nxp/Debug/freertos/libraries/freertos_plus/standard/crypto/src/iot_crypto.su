@@ -1,0 +1,10 @@
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:98:6:aws_mbedtls_mutex_init	16	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:117:6:aws_mbedtls_mutex_free	16	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:132:5:aws_mbedtls_mutex_lock	24	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:158:5:aws_mbedtls_mutex_unlock	24	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:184:19:prvVerifySignature	384	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:247:6:CRYPTO_Init	8	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:252:6:CRYPTO_ConfigureThreading	8	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:266:12:CRYPTO_SignatureVerificationStart	32	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:314:6:CRYPTO_SignatureVerificationUpdate	32	static
+../freertos/libraries/freertos_plus/standard/crypto/src/iot_crypto.c:336:12:CRYPTO_SignatureVerificationFinal	88	static

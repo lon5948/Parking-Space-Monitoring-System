@@ -1,0 +1,13 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\CMSIS/core_cm7.h:2041:22:__NVIC_SetPriority	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1408:20:CLOCK_SetMux	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_clock.h:1460:20:CLOCK_SetDiv	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_iomuxc.h:1320:20:IOMUXC_SetPinConfig	16	static
+../board/sdmmc_config.c:49:10:BOARD_USDHC1ClockConfiguration	8	static
+../board/sdmmc_config.c:62:6:BOARD_SDCardGetDetectStatus	16	static
+../board/sdmmc_config.c:77:6:SDMMC_SD_CD_Callback	16	static
+../board/sdmmc_config.c:85:6:BOARD_SDCardDAT3PullFunction	24	static
+../board/sdmmc_config.c:105:6:BOARD_SDCardDetectInit	24	static
+../board/sdmmc_config.c:149:6:BOARD_SDCardPowerResetInit	16	static
+../board/sdmmc_config.c:160:6:BOARD_SDCardPowerControl	16	static
+../board/sdmmc_config.c:172:6:BOARD_SD_Pin_Config	32	static
+../board/sdmmc_config.c:255:6:BOARD_SDIO_Config	24	static

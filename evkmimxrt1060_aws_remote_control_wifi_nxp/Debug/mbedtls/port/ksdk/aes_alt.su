@@ -1,0 +1,8 @@
+../mbedtls/port/ksdk/aes_alt.c:506:6:mbedtls_aes_init	16	static
+../mbedtls/port/ksdk/aes_alt.c:513:6:mbedtls_aes_free	16	static
+../mbedtls/port/ksdk/aes_alt.c:1107:6:mbedtls_aes_encrypt	24	static
+../mbedtls/port/ksdk/aes_alt.c:1244:6:mbedtls_aes_decrypt	24	static
+../mbedtls/port/ksdk/aes_alt.c:1319:5:mbedtls_aes_crypt_ecb	24	static
+../mbedtls/port/ksdk/aes_alt.c:1658:5:mbedtls_aes_crypt_cfb128	40	static
+../mbedtls/port/ksdk/aes_alt.c:1728:5:mbedtls_aes_crypt_cfb8	48	static
+../mbedtls/port/ksdk/aes_alt.c:1820:5:mbedtls_aes_crypt_ctr	40	static

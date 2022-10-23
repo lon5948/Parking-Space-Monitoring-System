@@ -1,0 +1,14 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\incl\port\lwip/wm_net.h:204:20:net_is_ip_or_ipv6	8	static
+../wifi/port/lwip/wifi_netif.c:62:13:register_interface	8	static
+../wifi/port/lwip/wifi_netif.c:67:13:deliver_packet_above	24	static
+../wifi/port/lwip/wifi_netif.c:112:21:gen_pbuf_from_data	24	static
+../wifi/port/lwip/wifi_netif.c:130:13:process_data_packet	48	static
+../wifi/port/lwip/wifi_netif.c:220:6:handle_data_packet	16	static
+../wifi/port/lwip/wifi_netif.c:228:6:handle_amsdu_data_packet	24	static
+../wifi/port/lwip/wifi_netif.c:240:6:handle_deliver_packet_above	24	static
+../wifi/port/lwip/wifi_netif.c:247:6:wrapper_net_is_ip_or_ipv6	16	static
+../wifi/port/lwip/wifi_netif.c:260:13:low_level_init	16	static
+../wifi/port/lwip/wifi_netif.c:311:14:low_level_output	40	static
+../wifi/port/lwip/wifi_netif.c:409:14:igmp_mac_filter	48	static
+../wifi/port/lwip/wifi_netif.c:632:7:lwip_netif_init	24	static
+../wifi/port/lwip/wifi_netif.c:675:7:lwip_netif_uap_init	24	static

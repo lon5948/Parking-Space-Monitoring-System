@@ -1,0 +1,5 @@
+../wifi/wifidriver/firmware_dnld.c:39:13:wlan_card_fw_status	24	static
+../wifi/wifidriver/firmware_dnld.c:49:13:wlan_card_ready_wait	24	static
+../wifi/wifidriver/firmware_dnld.c:67:16:wlan_download_normal_fw	64	static
+../wifi/wifidriver/firmware_dnld.c:147:16:wlan_set_fw_dnld_size	16	static
+../wifi/wifidriver/firmware_dnld.c:170:9:firmware_download	24	static

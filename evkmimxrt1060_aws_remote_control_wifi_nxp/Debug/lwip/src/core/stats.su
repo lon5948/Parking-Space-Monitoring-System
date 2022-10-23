@@ -1,0 +1,7 @@
+../lwip/src/core/stats.c:53:1:stats_init	0	static
+../lwip/src/core/stats.c:64:1:stats_display_proto	16	static
+../lwip/src/core/stats.c:83:1:stats_display_igmp	16	static
+../lwip/src/core/stats.c:105:1:stats_display_mem	16	static
+../lwip/src/core/stats.c:116:1:stats_display_memp	16	static
+../lwip/src/core/stats.c:127:1:stats_display_sys	16	static
+../lwip/src/core/stats.c:143:1:stats_display	16	static

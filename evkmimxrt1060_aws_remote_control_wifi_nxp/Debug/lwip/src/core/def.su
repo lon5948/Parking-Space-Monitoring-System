@@ -1,0 +1,7 @@
+../lwip/src/core/def.c:76:1:lwip_htons	8	static
+../lwip/src/core/def.c:90:1:lwip_htonl	8	static
+../lwip/src/core/def.c:105:1:lwip_strnstr	32	static
+../lwip/src/core/def.c:128:1:lwip_strnistr	32	static
+../lwip/src/core/def.c:151:1:lwip_stricmp	16	static
+../lwip/src/core/def.c:186:1:lwip_strnicmp	24	static
+../lwip/src/core/def.c:222:1:lwip_itoa	40	static

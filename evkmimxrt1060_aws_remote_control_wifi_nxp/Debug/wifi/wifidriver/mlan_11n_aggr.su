@@ -1,0 +1,2 @@
+../wifi/wifidriver/mlan_11n_aggr.c:46:12:wlan_11n_get_num_aggrpkts	24	static
+../wifi/wifidriver/mlan_11n_aggr.c:77:13:wlan_11n_deaggregate_pkt	48	static

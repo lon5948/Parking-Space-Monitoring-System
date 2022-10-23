@@ -1,0 +1,9 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\mbedtls\include/mbedtls/pk.h:227:36:mbedtls_pk_rsa	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\mbedtls\include/mbedtls/pk.h:240:36:mbedtls_pk_ec	8	static
+../mbedtls/library/pkwrite.c:72:12:pk_write_rsa_pubkey	56	static
+../mbedtls/library/pkwrite.c:111:12:pk_write_ec_pubkey	144	static
+../mbedtls/library/pkwrite.c:139:12:pk_write_ec_param	40	static
+../mbedtls/library/pkwrite.c:158:12:pk_write_ec_private	80	static
+../mbedtls/library/pkwrite.c:176:5:mbedtls_pk_write_pubkey	32	static
+../mbedtls/library/pkwrite.c:225:5:mbedtls_pk_write_pubkey_der	64	static
+../mbedtls/library/pkwrite.c:313:5:mbedtls_pk_write_key_der	72	static

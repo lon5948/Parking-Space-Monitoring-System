@@ -1,0 +1,15 @@
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:130:14:prvProvisionPrivateECKey	144	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:219:14:prvProvisionPrivateRSAKey	256	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:318:7:xProvisionPrivateKey	56	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:372:7:xProvisionPublicKey	456	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:500:7:xProvisionGenerateKeyPairRSA	192	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:564:7:xProvisionGenerateKeyPairEC	192	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:626:7:xProvisionCertificate	144	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:740:7:xDestroyProvidedObjects	56	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:797:7:xDestroyDefaultCryptoObjects	56	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:825:14:prvExportPublicKey	88	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:920:14:prvGetProvisionedState	208	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:1022:13:prvWriteHexBytesToConsole	80	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:1078:7:xProvisionDevice	64	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:1288:7:vAlternateKeyProvisioning	32	static
+../freertos/demos/dev_mode_key_provisioning/src/aws_dev_mode_key_provisioning.c:1320:7:vDevModeKeyProvisioning	32	static

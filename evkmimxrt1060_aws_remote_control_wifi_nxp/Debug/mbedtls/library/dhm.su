@@ -1,0 +1,16 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\mbedtls\include/mbedtls/error.h:159:19:mbedtls_error_add	16	static
+../mbedtls/library/dhm.c:66:12:dhm_read_bignum	32	static
+../mbedtls/library/dhm.c:101:12:dhm_check_range	32	static
+../mbedtls/library/dhm.c:121:6:mbedtls_dhm_init	16	static
+../mbedtls/library/dhm.c:130:5:mbedtls_dhm_read_params	32	static
+../mbedtls/library/dhm.c:155:12:dhm_random_below	40	static
+../mbedtls/library/dhm.c:167:12:dhm_make_common	40	static
+../mbedtls/library/dhm.c:208:5:mbedtls_dhm_make_params	48	static
+../mbedtls/library/dhm.c:261:5:mbedtls_dhm_set_group	32	static
+../mbedtls/library/dhm.c:283:5:mbedtls_dhm_read_public	32	static
+../mbedtls/library/dhm.c:302:5:mbedtls_dhm_make_public	32	static
+../mbedtls/library/dhm.c:336:12:dhm_update_blinding	48	static
+../mbedtls/library/dhm.c:400:5:mbedtls_dhm_calc_secret	48	static
+../mbedtls/library/dhm.c:457:6:mbedtls_dhm_free	16	static
+../mbedtls/library/dhm.c:480:5:mbedtls_dhm_parse_dhm	80	static
+../mbedtls/library/dhm.c:687:5:mbedtls_dhm_self_test	144	static

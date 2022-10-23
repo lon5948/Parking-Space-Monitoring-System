@@ -1,0 +1,17 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_flexspi.h:419:20:FLEXSPI_SoftwareReset	8	static
+../flash/mflash/mimxrt1062/mflash_drv.c:121:17:flexspi_nor_wait_bus_busy	48	static
+../flash/mflash/mimxrt1062/mflash_drv.c:173:17:flexspi_nor_write_enable	40	static
+../flash/mflash/mimxrt1062/mflash_drv.c:190:10:flexspi_nor_enable_quad_mode	40	static
+../flash/mflash/mimxrt1062/mflash_drv.c:224:17:flexspi_nor_flash_sector_erase	40	static
+../flash/mflash/mimxrt1062/mflash_drv.c:254:17:flexspi_nor_flash_page_program	48	static
+../flash/mflash/mimxrt1062/mflash_drv.c:287:17:flexspi_nor_read_data	48	static
+../flash/mflash/mimxrt1062/mflash_drv.c:309:16:mflash_drv_init_internal	24	static
+../flash/mflash/mimxrt1062/mflash_drv.c:359:9:mflash_drv_init	8	static
+../flash/mflash/mimxrt1062/mflash_drv.c:366:16:mflash_drv_sector_erase_internal	32	static
+../flash/mflash/mimxrt1062/mflash_drv.c:395:9:mflash_drv_sector_erase	16	static
+../flash/mflash/mimxrt1062/mflash_drv.c:404:16:mflash_drv_page_program_internal	32	static
+../flash/mflash/mimxrt1062/mflash_drv.c:434:9:mflash_drv_page_program	16	static
+../flash/mflash/mimxrt1062/mflash_drv.c:443:16:mflash_drv_read_internal	40	static
+../flash/mflash/mimxrt1062/mflash_drv.c:468:9:mflash_drv_read	24	static
+../flash/mflash/mimxrt1062/mflash_drv.c:479:7:mflash_drv_phys2log	24	static
+../flash/mflash/mimxrt1062/mflash_drv.c:514:10:mflash_drv_log2phys	24	static

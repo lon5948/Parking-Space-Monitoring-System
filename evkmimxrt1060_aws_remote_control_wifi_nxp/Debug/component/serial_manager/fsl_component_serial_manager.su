@@ -1,0 +1,17 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_common_arm.h:579:24:DisableGlobalIRQ	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\drivers/fsl_common_arm.h:606:20:EnableGlobalIRQ	16	static
+../component/serial_manager/fsl_component_serial_manager.c:398:32:SerialManager_StartWriting	32	static
+../component/serial_manager/fsl_component_serial_manager.c:453:32:SerialManager_StartReading	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1182:32:SerialManager_Write	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1199:32:SerialManager_Read	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1217:25:SerialManager_Init	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1404:25:SerialManager_Deinit	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1482:25:SerialManager_OpenWriteHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1519:25:SerialManager_CloseWriteHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1550:25:SerialManager_OpenReadHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1590:25:SerialManager_CloseReadHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1619:25:SerialManager_WriteBlocking	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1628:25:SerialManager_ReadBlocking	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1871:25:SerialManager_EnterLowpower	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1918:25:SerialManager_ExitLowpower	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1972:6:SerialManager_SetLowpowerCriticalCb	8	static

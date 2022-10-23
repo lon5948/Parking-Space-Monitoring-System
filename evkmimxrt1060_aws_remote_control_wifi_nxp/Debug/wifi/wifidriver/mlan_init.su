@@ -1,0 +1,9 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_util.h:51:22:util_init_list	8	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_util.h:66:22:util_init_list_head	24	static
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_util.h:305:22:util_scalar_init	24	static
+../wifi/wifidriver/mlan_init.c:58:13:wlan_allocate_adapter	8	static
+../wifi/wifidriver/mlan_init.c:73:6:wlan_clear_scan_bss	8	static
+../wifi/wifidriver/mlan_init.c:86:13:wlan_init_priv	24	static
+../wifi/wifidriver/mlan_init.c:165:8:wlan_init_adapter	16	static
+../wifi/wifidriver/mlan_init.c:260:13:wlan_init_lock_list	40	static
+../wifi/wifidriver/mlan_init.c:302:13:wlan_init_fw	32	static

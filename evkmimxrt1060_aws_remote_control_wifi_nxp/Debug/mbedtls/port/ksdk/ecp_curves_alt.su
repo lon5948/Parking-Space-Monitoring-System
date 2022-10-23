@@ -1,0 +1,8 @@
+../mbedtls/port/ksdk/ecp_curves_alt.c:581:20:ecp_mpi_load	16	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:591:20:ecp_mpi_set1	8	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:602:12:ecp_group_load	24	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:794:5:mbedtls_ecp_group_load	56	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:1014:20:add32	16	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:1020:20:sub32	16	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:1064:6:mbedtls_ecp_fix_negative	24	static
+../mbedtls/port/ksdk/ecp_curves_alt.c:1119:12:ecp_mod_p256	40	static

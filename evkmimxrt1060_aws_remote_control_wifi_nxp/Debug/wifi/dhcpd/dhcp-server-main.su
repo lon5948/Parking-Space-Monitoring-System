@@ -1,0 +1,2 @@
+../wifi/dhcpd/dhcp-server-main.c:28:5:dhcp_server_start	32	static
+../wifi/dhcpd/dhcp-server-main.c:55:6:dhcp_server_stop	8	static

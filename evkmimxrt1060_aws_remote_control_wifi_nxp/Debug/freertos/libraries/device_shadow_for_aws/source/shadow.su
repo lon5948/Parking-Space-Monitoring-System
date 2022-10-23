@@ -1,0 +1,7 @@
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:178:23:containsSubString	32	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:201:23:validateThingName	24	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:233:23:extractShadowMessageType	32	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:312:21:getShadowOperationString	16	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:370:17:getShadowOperationLength	16	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:430:16:Shadow_MatchTopic	32	static
+../freertos/libraries/device_shadow_for_aws/source/shadow.c:536:16:Shadow_GetTopicString	48	static

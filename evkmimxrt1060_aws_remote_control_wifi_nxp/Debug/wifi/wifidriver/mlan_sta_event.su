@@ -1,0 +1,2 @@
+../wifi/wifidriver/mlan_sta_event.c:36:8:wlan_reset_connect_state	16	static
+../wifi/wifidriver/mlan_sta_event.c:104:8:wlan_handle_disconnect_event	16	static

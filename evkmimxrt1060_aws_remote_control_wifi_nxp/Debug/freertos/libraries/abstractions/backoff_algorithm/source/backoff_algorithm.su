@@ -1,0 +1,2 @@
+../freertos/libraries/abstractions/backoff_algorithm/source/backoff_algorithm.c:38:26:BackoffAlgorithm_GetNextBackoff	32	static
+../freertos/libraries/abstractions/backoff_algorithm/source/backoff_algorithm.c:84:6:BackoffAlgorithm_InitializeParams	24	static

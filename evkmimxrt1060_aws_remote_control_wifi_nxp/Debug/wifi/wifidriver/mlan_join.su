@@ -1,0 +1,8 @@
+C:\Users\chuch\Documents\MCUXpressoIDE_11.6.1_8255\workspace\evkmimxrt1060_aws_remote_control_wifi_nxp\wifi\wifidriver\incl/mlan_main.h:2069:14:wlan_strlen	16	static
+../wifi/wifidriver/mlan_join.c:58:20:wlan_get_common_rates	48	static
+../wifi/wifidriver/mlan_join.c:141:20:wlan_setup_rates_from_bssdesc	56	static
+../wifi/wifidriver/mlan_join.c:179:20:wlan_update_rsn_ie	72	static
+../wifi/wifidriver/mlan_join.c:313:13:wlan_cmd_802_11_associate	104	static
+../wifi/wifidriver/mlan_join.c:682:13:wlan_ret_802_11_associate	56	static
+../wifi/wifidriver/mlan_join.c:825:13:wlan_associate	48	static
+../wifi/wifidriver/mlan_join.c:865:6:wlan_band_to_radio_type	16	static

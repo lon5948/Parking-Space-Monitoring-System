@@ -86,9 +86,10 @@ def detect(dataPath, clf, filename):
     f.close()
         
     dataPathImage=os.path.join('.',dataPath,filename)
+    #cap = cv2.VideoCapture(dataPathImage)
     frame = cv2.imread(dataPathImage)
     f=open('Adaboost_pred.txt','w')
-
+    #while(1):
     total = 0
     a = 0
     b = 0
@@ -98,7 +99,12 @@ def detect(dataPath, clf, filename):
     dic['a'] = list()
     dic['b'] = list()
     dic['c'] = list()
-    
+    '''
+    ret, frame = cap.read()
+    if ret == False:
+        break
+    '''
+
     for i in range(int(num)):
         frameCroped = crop(coordinate[i][0],coordinate[i][1],coordinate[i][2],coordinate[i][3],coordinate[i][4],coordinate[i][5],coordinate[i][6],coordinate[i][7],frame)
         frameCroped = cv2.cvtColor(frameCroped, cv2.COLOR_BGR2GRAY)
@@ -110,7 +116,7 @@ def detect(dataPath, clf, filename):
             pts = np.array([[coordinate[i][0], coordinate[i][1]], [coordinate[i][2], coordinate[i][3]], [coordinate[i][6], coordinate[i][7]], [coordinate[i][4], coordinate[i][5]]], np.int32)
             pts = pts.reshape((4, 1, 2))# 將座標轉為 (頂點數量, 1, 2) 的陣列
             cv2.polylines(frame, [pts], True, green_color, 2)# 繪製多邊形  
-              
+            
             if(i < 26):
                 a += 1
                 dic['a'].append(i+1)
@@ -127,11 +133,17 @@ def detect(dataPath, clf, filename):
         #print('Section A: ', a)
         #print('Section B: ', b)
         #print('Section C: ', c)
-
+    '''
+    r = random.randint(1, 10)
+    if r == 6: 
+        cv2.imwrite('static/assets/img/pic.jpg',frame)
+        return a, b, c, total, dic
+    '''
     cv2.imwrite('static/assets/img/pic.jpg',frame)
     return a, b, c, total, dic
     
     
-    f.close()
-    cv2.destroyAllWindows()
+    #f.close()
+    #cv2.destroyAllWindows()
+    #cap.release()
 

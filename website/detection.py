@@ -66,7 +66,7 @@ def detect(dataPath, clf, filename):
     f=open(dataPathTXT,'r')
 
     num=f.readline()
-
+    noList = [11, 12, 14, 28, 29, 30, 63, 66, 67, 75]
     coordinate=[]
 
     for i in range(int(num)):
@@ -85,81 +85,53 @@ def detect(dataPath, clf, filename):
         
     f.close()
         
-    dataPathVideo=os.path.join('.',dataPath,filename)
-    
-        
-    cap = cv2.VideoCapture(dataPathVideo)
+    dataPathImage=os.path.join('.',dataPath,filename)
+    frame = cv2.imread(dataPathImage)
     f=open('Adaboost_pred.txt','w')
+
+    total = 0
+    a = 0
+    b = 0
+    c = 0
 
     dic = {}
     dic['a'] = list()
     dic['b'] = list()
     dic['c'] = list()
-
-    while(1):
-        total = 0
-        a = 0
-        b = 0
-        c = 0
-        
-        ret, frame = cap.read()
-        
-        if ret==False:
-            break
-        
-        dic = {}
-        dic['a'] = list()
-        dic['b'] = list()
-        dic['c'] = list()
-
-        for i in range(int(num)):
-            frameCroped = crop(coordinate[i][0],coordinate[i][1],coordinate[i][2],coordinate[i][3],coordinate[i][4],coordinate[i][5],coordinate[i][6],coordinate[i][7],frame)
-            frameCroped = cv2.cvtColor(frameCroped, cv2.COLOR_BGR2GRAY)
-            frameCroped = cv2.resize(frameCroped, (36, 16), interpolation=cv2.INTER_AREA)
+    
+    for i in range(int(num)):
+        frameCroped = crop(coordinate[i][0],coordinate[i][1],coordinate[i][2],coordinate[i][3],coordinate[i][4],coordinate[i][5],coordinate[i][6],coordinate[i][7],frame)
+        frameCroped = cv2.cvtColor(frameCroped, cv2.COLOR_BGR2GRAY)
+        frameCroped = cv2.resize(frameCroped, (36, 16), interpolation=cv2.INTER_AREA)
             
-            if clf.classify(frameCroped)==1:
-                f.write('1 ')
-                
-                green_color = (0, 255, 0) # BGR
-                pts = np.array([[coordinate[i][0], coordinate[i][1]], [coordinate[i][2], coordinate[i][3]], [coordinate[i][6], coordinate[i][7]], [coordinate[i][4], coordinate[i][5]]], np.int32)
-                pts = pts.reshape((4, 1, 2))# 將座標轉為 (頂點數量, 1, 2) 的陣列
-                cv2.polylines(frame, [pts], True, green_color, 1)# 繪製多邊形
-                
-                                           
+        if clf.classify(frameCroped)==0 and i not in noList:
+            f.write('1 ')
+            green_color = (0, 255, 0) # BGR
+            pts = np.array([[coordinate[i][0], coordinate[i][1]], [coordinate[i][2], coordinate[i][3]], [coordinate[i][6], coordinate[i][7]], [coordinate[i][4], coordinate[i][5]]], np.int32)
+            pts = pts.reshape((4, 1, 2))# 將座標轉為 (頂點數量, 1, 2) 的陣列
+            cv2.polylines(frame, [pts], True, green_color, 2)# 繪製多邊形  
+              
+            if(i < 26):
+                a += 1
+                dic['a'].append(i+1)
+            elif(i >= 26 and i <= 51):
+                b += 1
+                dic['b'].append(i%26 + 1)
             else:
-                if(i < 26):
-                    a += 1
-                    dic['a'].append(i+1)
-                elif(i >= 26 and i <= 51):
-                    b += 1
-                    dic['b'].append(i%26 + 1)
-                else:
-                    c += 1
-                    dic['c'].append(i%26 + 1)
-                total += 1
-                f.write('0 ')
+                c += 1
+                dic['c'].append(i%26 + 1)
+            total += 1
+            f.write('0 ')
         #cv2.imshow('detectedImage',frame)
         #print('[Remaining free parking lots]')
         #print('Section A: ', a)
         #print('Section B: ', b)
         #print('Section C: ', c)
-        r = random.randint(1,10)
-        if r == 10:
-            cv2.imwrite('static/assets/img/pic.jpg',frame)
-            return a, b, c, total, dic
-     
-        #f.write('\n')
-            
-        if cv2.waitKey(30) == 27:
-            break
-    
+
+    cv2.imwrite('static/assets/img/pic.jpg',frame)
+    return a, b, c, total, dic
     
     
     f.close()
     cv2.destroyAllWindows()
-    cap.release()
 
-    
-    
-    
-    # End your code (Part 4)

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Parking Lot Monitoring System</title>
+        <title>Parking Slot Monitoring System</title>
         <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -19,7 +19,6 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#pic">Picture</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Area</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,7 +26,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Remaining Parking Lot</div>
+                <div class="masthead-subheading">Remaining Parking Slots</div>
                 <div class="masthead-heading text-uppercase">{{ total }}</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">More Details</a>
             </div>
@@ -61,7 +60,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Daxue Rd.</div>
-                                <div class="portfolio-caption-subheading text-muted">{{ sectionA }}</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ sectionC }}</div>
                             </div>
                         </div>
                     </div>
@@ -91,58 +90,11 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Baoshan Rd.</div>
-                                <div class="portfolio-caption-subheading text-muted">{{ sectionC }}</div>
+                                <div class="portfolio-caption-subheading text-muted">{{ sectionA }}</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">(sentence)</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../static/assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Parking Lot</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../static/assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">East District</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../static/assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Hsinchu City</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../static/assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Taiwan</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </section>
         <!-- Portfolio Modals-->
@@ -157,11 +109,10 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Daxue Rd.</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/1.jpg" alt="..." />
                                     <p>
-                                        {% for a in parkingLot.a %}
-                                        {{ a }} ,
+                                        {% for c in parkingLot.c %}
+                                        {{ c }} 
                                         {% endfor %}
                                     </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -184,12 +135,11 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Guangfu Rd.</h2>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/2.jpg" alt="..." />
                                     <p>
                                         {% for b in parkingLot.b %}
-                                        {{ b }} ,
+                                        {{ b }} 
                                         {% endfor %}
                                     </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -212,12 +162,11 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Baoshan Rd.</h2>
                                     <img class="img-fluid d-block mx-auto" src="../static/assets/img/portfolio/3.jpg" alt="..." />
                                     <p>
-                                        {% for c in parkingLot.c %}
-                                        {{ c }} ,
+                                        {% for a in parkingLot.a %}
+                                        {{ a }} 
                                         {% endfor %}
                                     </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
